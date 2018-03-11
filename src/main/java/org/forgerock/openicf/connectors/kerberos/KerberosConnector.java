@@ -23,10 +23,10 @@ import org.identityconnectors.framework.spi.Connector;
 import org.identityconnectors.framework.spi.ConnectorClass;
 
 /**
- * Main implementation of the ScriptedKerberosConnector Connector.
+ * Main implementation of the ScriptedKerberosConnector Connector, which is
+ * used to connect to Kerberos systems over SSH.
  *
  * @author ForgeRock
- * @description Kerberos connector used to connect to kerberos systems via ssh
  * @version 1.0
  */
 @ConnectorClass(displayNameKey = "kerberos.connector.display",
